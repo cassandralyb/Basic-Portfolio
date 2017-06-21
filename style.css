@@ -1,0 +1,181 @@
+
+body {
+  font-size: 14px;
+  line-height: 32px;
+  width: 100%; 
+  color: #777777;
+  background-image: url("stardust.png");
+}
+
+
+h1 {
+	font-size: 20px
+	font-style: 'Georgia';
+	color: #ffffff;
+	text-align: center;
+	padding: 5px;
+}
+
+h2 {
+	font-size: 18px
+	color: cadetblue;
+}
+
+p {
+	font-size: 14px
+}
+
+
+nav {
+  float: right;
+  position: absolute;
+  right: 20px;
+  top: 200px;
+  z-index: 1;
+  top: 15px;
+  height: 50px;
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+
+}
+
+ul {
+    position: relative;
+    right: 0px;
+    top: 60px;
+    list-style-type: none;
+    text-align: center;
+    word-spacing: 30px;
+    font-size: 18px;
+}
+
+li {
+    display: inline;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.section1 {
+	float: right;
+	width: 100%;
+	height: 150px;
+	background-color: #ffffff;
+}
+
+.section2 {
+	float: right;
+	width: 100%;
+	height: 1000px;
+  background-image: url("stardust.png");
+}
+
+
+.projects1 {
+  position: absolute;
+  left: 100px;
+  width: 320px;
+  height: 900px;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+.projects2 {
+  position: absolute;
+  left: 400px;
+  width: 320px;
+  height: 900px;
+  background-color: lightgrey;
+}
+
+.proj1 {
+  float: left;
+  position: relative;
+  margin: 20px;
+  width: 50%;
+}
+
+#name {
+  position: relative;
+  float: left;
+  z-index: 1;
+  height: 85px;
+  width: 300px;
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-right: 270px;
+  text-align: center;
+  background-color: grey;
+}
+
+#connectme {
+  float: right;
+  position: relative;
+  height: 150px;
+  width: 300px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 100px;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+#aboutme {
+  float: left;
+  height: 700px;
+  width: 500px;
+  top: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  background-color: lightgrey;
+  
+}
+
+input[type=text], select {
+    position: relative;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: lightgrey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: darkgrey;
+}
+
+#form1 {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+}
+
+
+footer {
+  clear: left;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color: dimgray;
+}
+
